@@ -8,8 +8,8 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Home name={user.name} city={user.city} color={user.color} /> {/* Pass data as props */}
-      <About bio={user.bio} links={user.links} /> {/* Pass bio and links as props */}
+      <Home name={user.name} city={user.city} color={user.color} /> 
+      <About bio={user.bio} links={user.links} /> 
     </div>
   );
 }
